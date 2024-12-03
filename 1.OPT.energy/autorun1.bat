@@ -1,0 +1,11 @@
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_10.in > ab_f_10.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_15.in > ab_f_15.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_20.in > ab_f_20.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_25.in > ab_f_25.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_30.in > ab_f_30.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_35.in > ab_f_35.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_40.in > ab_f_40.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_45.in > ab_f_45.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_50.in > ab_f_50.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_55.in > ab_f_55.out
+C:/Users/79179/Desktop/qe/pw.exe < ab_f_60.in > ab_f_60.out
