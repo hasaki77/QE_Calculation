@@ -1,0 +1,45 @@
+&CONTROL
+  calculation = 'bands'
+  etot_conv_thr =   6.0000000000d-05
+  forc_conv_thr =   1.0000000000d-04
+  outdir = '.'
+  pseudo_dir = '.'
+  tprnfor = .true.
+  tstress = .true.
+  verbosity = 'high'
+  prefix = 'ab_f'
+/
+&SYSTEM
+  degauss =   2.0000000000d-02
+  ecutrho =   3.6000000000d+02
+  ecutwfc = 45
+  ibrav = 0
+  nat = 6
+  nbnd = 30
+  nosym = .false.
+  ntyp = 2
+  occupations = 'smearing'
+  smearing = 'cold'
+/
+&ELECTRONS
+/
+ATOMIC_SPECIES
+C      12.0107 C.pbesol-n-kjpaw_psl.1.0.0.UPF
+F      18.9984032 F.pbesol-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS {crystal}
+C            0.0000192372       0.0000205709       0.5034283996
+C            0.3333423734       0.3333433869       0.5286075473
+C            0.6666304467       0.6666281225       0.6315737963
+C            0.3333076240       0.3333055973       0.6063941121
+F            0.0000446463       0.0000447066       0.4344390035
+F            0.6666023731       0.6666014193       0.7005636096
+CELL_PARAMETERS {angstrom}
+2.5668995380       0.0000000000       0.0000000000
+1.2834500650       2.2230000380       0.0000000000
+0.0000000000       0.0000000000      19.9764861151
+K_POINTS {tpiba_b}
+4
+0.0000000000 0.0000000000 0.0000000000 100 ! gG 
+0.5000000000 0.5000000000 0.0000000000 100 ! M
+0.6666666666 0.3333333333 0.0000000000 100 ! K 
+0.0000000000 0.0000000000 0.0000000000 100 ! gG 

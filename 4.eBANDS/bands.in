@@ -1,0 +1,6 @@
+&BANDS
+prefix = 'ab_f',
+outdir = '.',
+filband = 'bands.dat',
+/
+
