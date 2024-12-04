@@ -24,10 +24,10 @@
 > **2.Relaxation**
 
 - **vc-relax** is used to relax ATOMIC POSITIONS and CELL PARAMETERS
-- Relaxed CELL PARAMETERS are used for Self-Consistent Field (SCF) calculations
+- Relaxed CELL PARAMETERS are used further for Self-Consistent Field (SCF) calculations
 
 ## Electronic Density of States (DOS) and Band Structure
-> **3.eDOS**
+> **3.eDOS** <br>
 > **4.eBANDS**
 - Fermi Energy = 
 - Band Gap = 3.9107 eV
