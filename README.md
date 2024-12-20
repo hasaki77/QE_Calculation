@@ -35,4 +35,8 @@
 
 ## Mechanical Properties
 > **5.Props.Mechanical**
-![](images/merged_DOS_BANDS.png)
+![](images/Volume_Energy.png)
+![](images/Stress_xx_Strain.png)
+![](images/Stress_yy_Strain.png)
+![](images/Stress_zz_Strain.png)
+![](images/BulkMod_Pressure.png)
