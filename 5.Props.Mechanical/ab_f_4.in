@@ -1,7 +1,7 @@
 &CONTROL
-  calculation = 'nscf'
-  etot_conv_thr =   6.0000000000d-05
-  forc_conv_thr =   1.0000000000d-04
+  calculation = 'scf'
+  etot_conv_thr =   1.0d-05
+  forc_conv_thr =   1.0d-04
   outdir = '.'
   pseudo_dir = '.'
   tprnfor = .true.
@@ -14,13 +14,21 @@
   ecutwfc = 45
   ibrav = 0
   nat = 6
-  nbnd = 30
   nosym = .false.
   ntyp = 2
   occupations = 'smearing'
   smearing = 'cold'
 /
 &ELECTRONS
+/
+&IONS
+ion_dynamics = 'bfgs'
+/
+&CELL
+cell_dofree = 'all'
+cell_dynamics = 'bfgs'
+press = 0.0
+press_conv_thr = 0.5
 /
 ATOMIC_SPECIES
 C      12.0107 C.pbesol-n-kjpaw_psl.1.0.0.UPF
@@ -35,9 +43,9 @@ F            0.0000446463       0.0000447066       0.4344390035
 F            0.6666023731       0.6666014193       0.7005636096
 
 K_POINTS automatic
-24 24 2 0 0 0
+12 12 1 0 0 0
 
 CELL_PARAMETERS angstrom
-      2.5668995380       0.0000000000       0.0000000000
-      1.2834500650       2.2230000380       0.0000000000
-      0.0016438986       0.0009644628      19.9764861151
+   2.526011282  -0.000000525   0.000000000
+   1.273005480   2.204910623   0.000000000
+   0.001630521   0.000956614  19.976486115
