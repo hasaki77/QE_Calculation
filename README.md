@@ -29,12 +29,10 @@
 ## Electronic Density of States (DOS) and Band Structure
 > **3.eDOS** <br>
 > **4.eBANDS**
-- Fermi Energy = 
+- Fermi Energy = -0.06 eV
 - Band Gap = 3.9107 eV
 ![](images/merged_DOS_BANDS.png)
 
 ## Mechanical Properties
-
-
-
-
+> **5.Props.Mechanical**
+![](images/merged_DOS_BANDS.png)
