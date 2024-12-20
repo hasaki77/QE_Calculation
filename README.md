@@ -34,7 +34,8 @@
 ![](images/merged_DOS_BANDS.png)
 
 ## Mechanical Properties
-> **5.Props.Mechanical**
+> **5.Props.Mechanical** <br>
+
 ![](images/Volume_Energy.png)
 ![](images/Stress_xx_Strain.png)
 ![](images/Stress_yy_Strain.png)
